@@ -1,5 +1,5 @@
 # M3U8-Parser
-A nodejs application which parses a m3u8 playlist and returns the data as json. Uses tedconf/node-m3u8 for the actual parsing.
+A nodejs application which parses a m3u8 playlist and returns the data as json. Uses [tedconf/node-m3u8](https://github.com/tedconf/node-m3u8) for the actual parsing.
 
 
 Simply run `node application.js "[url to m3u8 playlist file]"` and json will be outputed on stdout that represents the playlist.
