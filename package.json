@@ -1,0 +1,27 @@
+{
+    "name" : "M3U8-Parser",
+    "version" : "0.0.1",
+    "description" : "A nodejs application which parses a m3u8 playlist and returns the data as json. Uses tedconf/node-m3u8 for the actual parsing.",
+    "main" : "./application.js",
+    "keywords" : [
+        "m3u",
+        "m3u8",
+        "hls",
+        "http live streaming",
+        "stream"
+    ],
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/LA1TV/M3U8-Parser.git"
+    },
+    "dependencies" : {
+        "node-m3u8": "tedconf/node-m3u8"
+    },
+    "engine" : {
+        "node" : ">=0.6.0"
+    },
+    "author" : {
+        "name" : "Tom Jenkinson",
+        "email" : "tjcode@outlook.com"
+    }
+}
