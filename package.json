@@ -15,7 +15,7 @@
         "url" : "https://github.com/LA1TV/M3U8-Parser.git"
     },
     "dependencies" : {
-        "node-m3u8": "tedconf/node-m3u8"
+        "node-m3u8": "LA1TV/node-m3u8"
     },
     "engine" : {
         "node" : ">=0.6.0"
